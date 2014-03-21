@@ -1,0 +1,67 @@
+/*general styling*/
+
+
+body{
+	background: black;
+	padding: 10px;
+
+}
+
+
+
+/* article container*/
+
+
+.canvas{
+	/*Position*/
+	position: relative;
+	z-index: 101;
+	
+	/*container*/
+	margin: 10% auto 10%;
+	padding: 5%;
+	max-width: 700px;
+	width: 110%;
+
+	/* Skin */
+	background: white;
+}
+
+
+#menu{
+	padding: 0 10px;
+	position: fixed;
+	top: 2px;
+	left: 50%;
+	width: 300px;
+	margin-left: -50%;
+	z-index: 102;
+	border: 2px solid #2A2A2A;
+	background: #FFFFFF;
+	color: black;
+}
+
+
+/* article styling */
+
+
+
+
+/* form styles */
+
+#menu label{
+	margin-right: 15px;
+	display: inline-block;
+}
+
+#menu input, #menu select{
+	margin-left: 5px;
+} 
+
+
+
+/* Formating Styles  */
+
+.darkBody{
+	background: #2D2E2E;
+}
