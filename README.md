@@ -10,7 +10,7 @@
  `idProperty`| String | - |*(required)* the name of the property where the id is found for each object in the data array
 `onDataSourceResponse`| Function(data) | - | it is called if `dataSource` is a primise <br>`dataSource.then(onDataSourceResponse, onDataSourceResponse)`
 `emptyText`| String\|JSX | - | text that apears when dataSource provides an empty dataset
-`columns`| Array | - | an array of columns that are going to be rendered in the grid. Read more on [columns](#Columns) 
+`columns`| Array | - | an array of columns that are going to be rendered in the grid. Read more on [columns](#columns) 
     
 
 ### Columns
